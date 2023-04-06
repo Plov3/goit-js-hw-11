@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alkatra', cursive;
+  color: rgb(55, 86, 122);
+  line-height: 1;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Alkatra', cursive;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  min-width: 300px;
+  font-family: inherit;
+  color: #638fc2;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 24px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+input:focus {
+  box-shadow: 0 4px 30px #fff;
+  outline: #fff;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px;
+}
+.search-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.search-btn:hover {
+  box-shadow: 0 4px 30px #fff;
+}
